@@ -10,7 +10,9 @@ xhr.onload = function()
                 //return server response as an object with JSON.parse
                 let data = JSON.parse(this.responseText);
                 updateUI(data);
-            } 
+            } else {
+                alert ("error");
+            }
     }
 //call send
 xhr.send();
