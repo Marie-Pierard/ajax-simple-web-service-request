@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(#cfd0e4, #5997af);
+    font-family: cursive;
+    text-align: center;
+}
+#text {
+    font-weight: bold;
+    font-style: italic;
+    }
+#picture {
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
